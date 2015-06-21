@@ -1,0 +1,18 @@
+<header class="site-header">
+	<div class="branding">
+		{{ with .Site.Params.gravatar }}
+		<a href="{{ $.Site.BaseURL }}">
+			<img class="avatar" src="//secure.gravatar.com/avatar/{{ . }}?s=100" alt=""/>
+		</a>
+		{{ else }}
+		<a href="{{ .Site.BaseURL }}">
+			<img class="avatar" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt=""/>
+		</a>
+		{{ end }}
+		<h1 class="site-title">
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+	</nav>
+</header>
