@@ -1,0 +1,17 @@
+<div class="pagination">
+	{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+		{{ if .Paginator.HasPrev }}
+		<a href="{{ .Paginator.Prev.URL }}" class="button" >
+			<i class="fa fa-chevron-left"></i>
+			{{ with .Site.Params.previous }}{{ . }}{{ else }}Prev{{ end }}
+		</a>
+		{{ end }}
+
+		{{ if .Paginator.HasNext }}
+		<a href="{{ .Paginator.Next.URL }}" class="button" >
+			{{ with .Site.Params.next }}{{ . }}{{ else }}Next{{ end }}
+			<i class="fa fa-chevron-right"></i>
+		</a>
+		{{ end }}
+	{{ end }}
+</div>
