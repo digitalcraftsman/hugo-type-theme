@@ -1,5 +1,12 @@
 {{ partial "head.html" }}
 	<body>
 	{{ partial "nav.html" . }}
+
+	{{ if isset .Site.Params "headerText" }}
+	<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/{{ .Site.Params.headerImage }}')">
+    {{ .Site.Params.headerText | markdownify }}
+  	</div>
+	{{ end }}
+
 	</body>
 </html>
