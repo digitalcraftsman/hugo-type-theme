@@ -1,12 +1,19 @@
-{{ partial "head.html" }}
+	{{ partial "head.html" }}
 	<body>
-	{{ partial "nav.html" . }}
+		{{ partial "nav.html" . }}
 
-	{{ if isset .Site.Params "headerText" }}
-	<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/{{ .Site.Params.headerImage }}')">
-    {{ .Site.Params.headerText | markdownify }}
-  	</div>
-	{{ end }}
+		<div class="content">
+			<div class="home">
 
+				{{ if isset .Site.Params "headerText" }}
+				<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/{{ .Site.Params.headerImage }}')">
+					{{ .Site.Params.headerText | markdownify }}
+				</div>
+				{{ end }}
+
+				{{ partial "post-list.html" . }}
+
+			</div>
+		</div>
 	</body>
 </html>
