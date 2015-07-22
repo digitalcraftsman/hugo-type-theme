@@ -10,7 +10,17 @@
 						    {{ with .Site.Params.author }} - {{ . }}{{ end }}
 						    </p>
 					</header>
-				<section class="post-content">{{ .Content }}</section>
+				<section class="post-content">
+				{{ .Content }}
+
+
+				{{ if isset .Site.Params "disqusShortname" }}
+					{{ partial "disqus.html" . }}
+				{{ end }}
+				</section>
+
+
+
 			</article>
 			{{ partial "footer.html" . }}
 		</div>
