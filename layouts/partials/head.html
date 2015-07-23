@@ -11,6 +11,10 @@
 	{{ "<!-- CSS -->" | safeHTML }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 
+	{{ "<!-- Syntax highlighting via prism.js -->" | safeHTML }}
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+
 	{{ "<!--Favicon-->" | safeHTML }}
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
 
