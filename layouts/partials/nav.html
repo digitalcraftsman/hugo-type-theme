@@ -14,5 +14,11 @@
 		</h1>
 	</div>
 	<nav class="site-nav">
+	<ul>
+      <li><a href="/">Home</a> </li>
+      {{ range .Site.Menus.nav }}
+        <li><a href="{{ .URL }}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
 	</nav>
 </header>
