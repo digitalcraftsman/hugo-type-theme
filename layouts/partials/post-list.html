@@ -1,26 +1,24 @@
 <div class="posts">
-	{{ range .Paginator.Pages.ByDate.Reverse }}
-		{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-		{{ if ne $url "about/" }}
-		<div class="post-teaser">
-			<header>
-				<h1>
-				<a class="post-link" href="{{ .Permalink }}">
-					{{ .Title }}
-				</a>
-				</h1>
-				<p class="meta">
-					{{ .Date.Format "January 1, 2006" }}
-				</p>
-			</header>
-			<div class="excerpt">
-				{{ .Description }}
-				<br><br>
-				<a class="button" href="{{ .Permalink }}">
-					{{ with .Site.Params.continueReading }}{{ . }}{{ else }}Continue Reading{{ end }}
-				</a>
-			</div>
+	{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+	{{ range $paginator.Pages }}
+	<div class="post-teaser">
+		<header>
+			<h1>
+			<a class="post-link" href="{{ .Permalink }}">
+				{{ .Title }}
+			</a>
+			</h1>
+			<p class="meta">
+				{{ .Date.Format "January 1, 2006" }}
+			</p>
+		</header>
+		<div class="excerpt">
+			{{ .Description }}
+			<br><br>
+			<a class="button" href="{{ .Permalink }}">
+				{{ with .Site.Params.continueReading }}{{ . }}{{ else }}Continue Reading{{ end }}
+			</a>
 		</div>
-		{{ end }}
+	</div>
 	{{ end }}
 </div>
