@@ -13,7 +13,6 @@
 
 	{{ "<!-- Syntax highlighting via prism.js -->" | safeHTML }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
 
 	{{ "<!--Favicon-->" | safeHTML }}
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
@@ -33,6 +32,5 @@
 	{{ if .Site.Params.katex }}
 	{{ "<!-- KaTeX -->" | safeHTML }}
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{{ end }}
 </head>
