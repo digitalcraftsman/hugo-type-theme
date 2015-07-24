@@ -1,0 +1,159 @@
+{{ if .Site.Params.social.rss }}
+<li>
+	<a href="{{ $.Site.BaseURL }}index.xml" title="{{ $.Site.Params.translations.rssSubscribe }}">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.email }}
+<li>
+	<a href="mailto:{{ $.Site.Params.social.email }}" title="{{ $.Site.Params.translations.email }}">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.behance }}
+<li>
+	<a href="https://www.behance.net/{{ $.Site.Params.social.behance }}" title="{{ $.Site.Params.translations.behance }}">
+		<i class="fa fa-fw fa-behance"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.bitbucket }}
+<li>
+	<a href="https://bitbucket.org/{{ $.Site.Params.social.bitbucket }}" title="{{ $.Site.Params.translations.bitbucket }}">
+		<i class="fa fa-fw fa-bitbucket"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.dribbble }}
+<li>
+	<a href="https://dribbble.com/{{ $.Site.Params.social.dribbble }}" title="{{ $.Site.Params.translations.dribbble }}">
+		<i class="fa fa-fw fa-dribbble"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.facebook }}
+<li>
+	<a href="https://www.facebook.com/{{ $.Site.Params.social.facebook }}" title="{{ $.Site.Params.translations.facebook }}">
+		<i class="fa fa-fw fa-facebook"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.flickr }}
+<li>
+	<a href="https://www.flickr.com/photos/{{ $.Site.Params.social.flickr }}" title="{{ $.Site.Params.translations.flickr }}">
+		<i class="fa fa-fw fa-flickr"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.github }}
+<li>
+	<a href="https://github.com/{{ $.Site.Params.social.github }}" title="{{ $.Site.Params.translations.github }}">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.googleplus }}
+<li>
+	<a href="https://plus.google.com/{{ $.Site.Params.social.google_plus }}" title="{{ $.Site.Params.translations.googleplus }}">
+		<i class="fa fa-fw fa-google-plus"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.instagram }}
+<li>
+	<a href="http://instagram.com/{{ $.Site.Params.social.instagram }}" title="{{ $.Site.Params.translations.instagram }}">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.linkedin }}
+<li>
+	<a href="{{ $.Site.Params.social.linkedin }}" title="{{ $.Site.Params.translations.linkedin }}">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.pinterest }}
+<li>
+	<a href="http://www.pinterest.com/{{ $.Site.Params.social.pinterest }}" title="{{ $.Site.Params.translations.pinterest }}">
+		<i class="fa fa-fw fa-pinterest"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.reddit }}
+<li>
+	<a href="https://www.reddit.com/user/{{ $.Site.Params.social.reddit }}" title="{{ $.Site.Params.translations.reddit }}">
+		<i class="fa fa-fw fa-reddit"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.soundcloud }}
+<li>
+	<a href="https://soundcloud.com/{{ $.Site.Params.social.soundcloud }}" title="{{ $.Site.Params.translations.soundcloud }}">
+		<i class="fa fa-fw fa-soundcloud"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.stackexchange }}
+<li>
+	<a href="{{ $.Site.Params.social.stackexchange }}" title="{{ $.Site.Params.translations.stackexchange }}">
+		<i class="fa fa-fw fa-stack-exchange"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.steam }}
+<li>
+	<a href="http://steamcommunity.com/id/{{ $.Site.Params.social.steam }}" title="{{ $.Site.Params.translations.steam }}">
+		<i class="fa fa-fw fa-steam"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.tumblr }}
+<li>
+	<a href="http://{{ $.Site.Params.social.tumblr }}.tumblr.com/" title="{{ $.Site.Params.translations.tumblr }}">
+		<i class="fa fa-fw fa-tumblr"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.twitter }}
+<li>
+	<a href="https://twitter.com/{{ $.Site.Params.social.twitter }}" title="{{ $.Site.Params.translations.twitter }}">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.wordpress }}
+<li>
+	<a href="https://{{ $.Site.Params.social.wordpress }}.wordpress.com/" title="{{ $.Site.Params.translations.wordpress }}">
+		<i class="fa fa-fw fa-wordpress"></i>
+	</a>
+</li>
+{{ end }}
+
+{{ with .Site.Params.social.youtube }}
+<li>
+	<a href="https://www.youtube.com/user/{{ $.Site.Params.social.youtube }}" title="{{ $.Site.Params.translations.youtube }}">
+		<i class="fa fa-fw fa-youtube"></i>
+	</a>
+</li>
+{{ end }}
