@@ -13,8 +13,8 @@
 			</p>
 		</header>
 		<div class="excerpt">
-			{{ .Description }}
-			<br><br>
+			{{ .Description | markdownify }}
+			<br>
 			<a class="button" href="{{ .Permalink }}">
 				{{ .Site.Params.translations.continueReading }}
 			</a>
