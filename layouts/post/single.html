@@ -14,9 +14,7 @@
 				{{ .Content }}
 
 
-				{{ if isset .Site.Params "disqusShortname" }}
-					{{ partial "disqus.html" . }}
-				{{ end }}
+				{{ template "_internal/disqus.html" . }}
 				</section>
 
 
