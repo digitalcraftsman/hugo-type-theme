@@ -6,7 +6,7 @@
 			<div class="home">
 
 				{{ if isset .Site.Params "headerText" }}
-				<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/{{ .Site.Params.headerImage }}')">
+				<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}')">
 					{{ .Site.Params.headerText | markdownify }}
 				</div>
 				{{ end }}
