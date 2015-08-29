@@ -1,21 +1,18 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
-name = "Copy"
+name = "Type"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
-tags = ["", ""]
+licenselink = "//github.com/digitalcraftsman/hugo-type-theme/blob/master/LICENSE.md"
+description = "A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize."
+homepage = "//github.com/digitalcraftsman/hugo-type-theme"
+tags = ["blog", "diqus", "google analytics", "minimal", "syntax highlighting"]
 features = ["", ""]
-min_version = 0.13
+min_version = 0.14
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Rohan Chandra"
+  homepage = "//rohanchandra.github.io"
+  repo = "//github.com/rohanchandra/type-theme"
