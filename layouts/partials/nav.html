@@ -13,7 +13,6 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-	      	<li><a href="/">{{ .Site.Params.translations.menuHome }}</a> </li>
 	      	{{ range .Site.Menus.nav }}
 	        	<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
 	      	{{end}}
