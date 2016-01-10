@@ -3,13 +3,13 @@
 		{{ if .Paginator.HasPrev }}
 		<a href="{{ .Paginator.Prev.URL }}" class="button" >
 			<i class="fa fa-chevron-left"></i>
-			{{ .Site.Params.translations.previous }}
+			{{ .Site.Data.l10n.previous }}
 		</a>
 		{{ end }}
 
 		{{ if .Paginator.HasNext }}
 		<a href="{{ .Paginator.Next.URL }}" class="button" >
-			{{ .Site.Params.translations.next }}
+			{{ .Site.Data.l10n.next }}
 			<i class="fa fa-chevron-right"></i>
 		</a>
 		{{ end }}

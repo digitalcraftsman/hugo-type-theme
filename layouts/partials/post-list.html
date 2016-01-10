@@ -9,14 +9,14 @@
 			</a>
 			</h1>
 			<p class="meta">
-				{{ .Date.Format "January 1, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Params.translations.readingTime }}
+				{{ .Date.Format "January 1, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
 			</p>
 		</header>
 		<div class="excerpt">
 			{{ .Description | markdownify }}
 			<br>
 			<a class="button" href="{{ .Permalink }}">
-				{{ .Site.Params.translations.continueReading }}
+				{{ .Site.Data.l10n.continueReading }}
 			</a>
 		</div>
 	</div>
