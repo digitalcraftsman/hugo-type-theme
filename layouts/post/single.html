@@ -3,7 +3,7 @@
 			{{ partial "nav.html" . }}
 			<div class="content">
 				<article {{ if isset .Params "featureimage" }}class="feature-image"{{ end }}>
-					<header style="background-image: url('{{ .Site.BaseURL }}img/{{ with $.Params.featureimage }}{{ . }}{{ end }}')">
+					<header style="background-image: url('{{ .Site.BaseURL }}{{ with $.Params.featureimage }}{{ . }}{{ end }}')">
 						<h1 class="title">{{ .Title }}</h1>
 						    <p class="meta">
 						    {{ .Date.Format "January 1, 2006" }}
