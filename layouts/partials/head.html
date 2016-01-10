@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-Frame-Options" content="sameorigin">
-	<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
-	<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ .Hugo.Generator }}
 
 	{{ "<!-- CSS -->" | safeHTML }}
