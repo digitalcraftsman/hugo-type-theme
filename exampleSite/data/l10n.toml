@@ -1,0 +1,34 @@
+# Pagination buttons
+previous = "Prev"
+next = "Next"
+
+# Post list
+readingTime = "minute read" # e.g. 3 minute read
+continueReading = "Continue reading"
+
+# 404.html
+pageNotFoundTitle = "Page not found"
+pageNotFoundSubtitle = "Sorry, the requested page wasn’t found on the server."
+
+# Social networks
+# Text will beshown while hovering the navigation icons
+rssSubscribe  = "Subcribe"
+email = "Email"
+behance = "Behance"
+bitbucket = "Bitbucket"
+dribbble = "Dribbble"
+facebook = "Facebook"
+flickr = "Flickr"
+github = "Github"
+googleplus = "Google+"
+instagram = "Instagram"
+linkedin = "Linkedin"
+pinterest = "Pinterest"
+reddit = "Reddit"
+soundcloud = "Soundcloud"
+stackexchange = "Stackexchange"
+steam = "Steam"
+tumblr = "Tumblr"
+twitter = "Twitter"
+wordpress = "Wordpress"
+youtube = "Youtube"
