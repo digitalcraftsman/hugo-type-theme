@@ -22,6 +22,14 @@ In the next step navigate to the `exampleSite` folder at `themes/hugo-type-theme
 
 	exampleSite
 	├── config.toml
+	├── content
+	│   ├── about
+	│   │   └── index.md
+	│   └── post
+	│       ├── creating-a-new-theme.md
+	│       ├── go-is-for-lovers.md
+	│       ├── hugo-is-for-lovers.md
+	│       └── migrate-from-jekyll.md
 	├── data
 	│   └── l10n.toml
 	└── static
@@ -48,12 +56,12 @@ The same applies to the activation of Google Analytics. Enable it by entering th
 	googleAnalytics = ""
 
 
-## Menu
+## Menu links
 
-You can define the items menu entries as you like. First, let us link a post that you've written. We can do this in the frontmatter of the post's content file by setting `menu` to `main`.
+You can define menu entries as you like by linking a post or any other site. First, let us link a post that you've written. We can do this in the frontmatter of the post's content file by setting `menu` to `nav`. That's it.
 
     +++
-    menu = "main"
+    menu = "nav"
     +++
 
 
@@ -71,6 +79,10 @@ After creating a new post you can define a thumbnail by entering the relative pa
     +++
 
 This way you can store them either next to the content file or in the `static` folder.
+
+## About page
+
+If you want to tell your audience who you are create a new file called `index.md` under `content/about`. For an example look at `exampleSite/content/about/index.md` inside the theme folder.
 
 
 ## Nearly finished
