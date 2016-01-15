@@ -1,7 +1,7 @@
 +++
 date = "2015-07-23"
 title = "About"
-featureimage = "sample_feature_img_3.png"
+featureimage = "img/sample_feature_img_3.png"
 menu = "nav"
 +++
 
