@@ -2,12 +2,20 @@
 		<body>
 			{{ partial "nav.html" . }}
 			<div class="content">
-				<article {{ if isset .Params "featureimage" }}class="feature-image"{{ end }}>
-					<header style="background-image: url('{{ .Site.BaseURL }}img/{{ with $.Params.featureimage }}{{ . }}{{ end }}')">
+				{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) }}
+				<article class="feature-image">
+					<header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
 						<h1 class="title">{{ .Title }}</h1>
 					</header>
+				{{ else }}
+				<article>
+					<header>
+						<h1 class="title">{{ .Title }}</h1>
+					</header>
+				{{ end }}
+
 				<section class="post-content">
-				{{ .Content }}
+					{{ .Content }}
 				</section>
 			</article>
 
