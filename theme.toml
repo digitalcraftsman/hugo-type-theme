@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/digitalcraftsman/hugo-type-theme/blob/master/LICENSE.md"
 description = "A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize."
 homepage = "https://github.com/digitalcraftsman/hugo-type-theme"
-tags = ["blog", "diqus", "google analytics", "minimal", "syntax highlighting"]
+tags = ["blog", "diqus", "google analytics", "minimalistic"]
 features = ["", ""]
 min_version = 0.15
 
