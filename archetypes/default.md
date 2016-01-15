@@ -5,5 +5,3 @@ categories = []
 featureimage = ""
 menu = ""
 +++
-
-<!--more-->
