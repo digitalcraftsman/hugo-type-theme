@@ -13,7 +13,11 @@
 			</p>
 		</header>
 		<div class="excerpt">
-			{{ .Description | markdownify }}
+			{{ if isset .Params "description" | and (ne .Params.description "") }}
+				{{ .Description | markdownify }}
+			{{ else }}
+				{{ .Summary }}
+			{{ end  }}
 			<br>
 			<a class="button" href="{{ .Permalink }}">
 				{{ .Site.Data.l10n.continueReading }}
