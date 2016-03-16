@@ -98,14 +98,19 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/digitalcraftsman/hugo-type-theme/issues) to let me know. Or make directly a [pull request](//github.com/digitalcraftsman/hugo-type-theme/pulls).
 
+Please create a separate branch for each pull request
+
 
 ## License
 
 This theme is released under the MIT license. For more information read the [license](https://github.com/digitalcraftsman/hugo-type-theme/blob/master/LICENSE.md).
 
 
-## Acknowledgement
+## Acknowledgements
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+Thanks to 
+
+- [Rohan Chandra](https://github.com/rohanchandra) for creating the original theme
+- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
 
 
