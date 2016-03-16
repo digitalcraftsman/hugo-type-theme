@@ -27,8 +27,9 @@ paginate = 10
 
 
 	[params.social]
-	# Insert your accout name and the icon will be shown in the right menu
+		# Insert your accout name and the icon will be shown in the right menu
 		rss = true
+		homepage = false
 		email = "hello@example.com"
 		behance = ""
 		bitbucket  =""

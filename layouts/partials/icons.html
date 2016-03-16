@@ -1,3 +1,11 @@
+{{ with .Site.Params.social.homepage }}
+<li>
+	<a href="{{ $.Site.BaseURL }}" title="{{ $.Site.Data.l10n.homepage }}">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+{{ end }}
+
 {{ if .Site.Params.social.rss }}
 <li>
 	<a href="{{ $.Site.BaseURL }}index.xml" title="{{ $.Site.Data.l10n.rssSubscribe }}">
