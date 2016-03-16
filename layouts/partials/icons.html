@@ -14,6 +14,14 @@
 </li>
 {{ end }}
 
+{{ with .Site.Params.social.homepage }}
+<li>
+	<a href="mailto:{{ $.Site.Params.social.homepage }}" title="{{ $.Site.Data.l10n.homepage }}">
+		<i class="fa fa-fw fa-home"></i>
+	</a>
+</li>
+{{ end }}
+
 {{ with .Site.Params.social.email }}
 <li>
 	<a href="mailto:{{ $.Site.Params.social.email }}" title="{{ $.Site.Data.l10n.email }}">
