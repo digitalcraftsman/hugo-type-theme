@@ -44,7 +44,7 @@ Now, let us take a look into the `config.toml`. Feel free to play around with th
 
 ### Comments
 
-The opional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts.
+The optional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts.
 
     disqusShortname = ""
 
@@ -108,9 +108,7 @@ This theme is released under the MIT license. For more information read the [lic
 
 ## Acknowledgements
 
-Thanks to 
+Thanks to
 
 - [Rohan Chandra](https://github.com/rohanchandra) for creating the original theme
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
-
-
