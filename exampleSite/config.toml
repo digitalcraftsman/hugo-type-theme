@@ -16,8 +16,8 @@ paginate = 10
 	# Either show custom avatar on the top
 	# left by adding the filename in below
 	avatar = "img/avatar.png"
-	# or use Gravatar by adding an MD5-hash of your email address
-	gravatar = ""
+	# or use Gravatar by adding your email address to generate a unique avatar
+	gravatar = "your@email.com"
 
 	headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."
 	# To add a header background to the main site, save your image under static/img/.
@@ -29,7 +29,7 @@ paginate = 10
 	[params.social]
 		# Insert your accout name and the icon will be shown in the right menu
 		rss = true
-		homepage = false
+		homepage = true
 		email = "hello@example.com"
 		behance = ""
 		bitbucket  =""
