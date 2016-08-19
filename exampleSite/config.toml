@@ -13,6 +13,8 @@ paginate = 10
 [params]
 	author = "Your name"
 	description = "Add a description of your website"
+	# The keywords will be added as a meta tag. Delimit them with a comma.
+	keywords = ""
 	# Either show custom avatar on the top
 	# left by adding the filename in below
 	avatar = "img/avatar.png"
@@ -49,4 +51,3 @@ paginate = 10
 		twitter = ""
 		wordpress = ""
 		youtube = ""
-		
