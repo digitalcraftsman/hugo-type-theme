@@ -7,6 +7,7 @@
 	<meta http-equiv="X-Frame-Options" content="sameorigin">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 	{{ .Hugo.Generator }}
 
 	{{ "<!-- CSS -->" | safeHTML }}
