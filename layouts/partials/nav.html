@@ -1,11 +1,11 @@
 <header class="site-header">
 	<div class="branding">
 		<a href="{{ .Site.BaseURL }}">
-		{{ with .Site.Params.gravatar }}
+		{{ with .Site.Params.gravatar -}}
 			<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt=""/>
-		{{ else }}
+		{{- else -}}
 			<img class="avatar" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt=""/>
-		{{ end }}
+		{{- end }}
 		</a>
 		<h1 class="site-title">
 			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
@@ -13,9 +13,9 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-	      	{{ range .Site.Menus.nav }}
+	      	{{ range .Site.Menus.nav -}}
 	        	<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
-	      	{{end}}
+	      	{{- end }}
 
 	      	{{ partial "icons.html" . }}
 	    </ul>

@@ -16,10 +16,10 @@
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
 
 	{{ "<!-- RSS -->" | safeHTML }}
-	{{ if .RSSlink }}
+	{{ if .RSSlink -}}
 	  	<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 	  	<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-	{{ end }}
+	{{- end }}
 
 	{{ "<!-- Font Awesome -->" | safeHTML }}
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">

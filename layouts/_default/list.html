@@ -1,12 +1,4 @@
-	{{ partial "head.html" . }}
-	<body>
-		{{ partial "nav.html" . }}
-
-		<div class="content">
-			{{ partial "post-list.html" . }}
-			{{ partial "pagination.html" . }}
-			{{ partial "footer.html" . }}
-		</div>
-
-	</body>
-</html>
+{{ define "main" -}}
+	{{ partial "post-list.html" . }}
+	{{ partial "pagination.html" . }}
+{{- end }}
