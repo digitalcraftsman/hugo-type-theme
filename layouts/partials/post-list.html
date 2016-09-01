@@ -3,25 +3,12 @@
 	{{ range $paginator.Pages -}}
 	<div class="post-teaser">
 		<header>
-			<h1>
-			<a class="post-link" href="{{ .Permalink }}">
-				{{ .Title }}
-			</a>
-			</h1>
-			<p class="meta">
-				{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
-
-				{{ if isset .Params "tags" -}}
-			        {{ $tagsLen := len .Params.tags }}
-			        {{ if gt $tagsLen 0 -}}
-						&middot; Tags:
-						{{ range $k, $v := (sort .Params.tags) -}}
-			            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>
-			            {{ if lt $k (sub $tagsLen 1) }}, {{ end }}
-			            {{- end }}
-			        {{- end }}
-			    {{- end }}
-			</p>
+		    <h1>
+		    <a class="post-link" href="{{ .Permalink }}">
+		        {{ .Title }}
+		    </a>
+		    </h1>
+		    {{ partial "post-meta" . }}
 		</header>
 
 		<div class="excerpt">
@@ -30,6 +17,7 @@
 			{{- else -}}
 				{{ .Summary }}
 			{{- end }}
+			
 			<br>
 			<a class="button" href="{{ .Permalink }}">
 				{{ .Site.Data.l10n.continueReading }}
