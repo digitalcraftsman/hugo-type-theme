@@ -165,3 +165,11 @@
 	</a>
 </li>
 {{- end }}
+
+{{ with .Site.Params.social.xing -}}
+<li>
+	<a href="https://www.xing.com/profile/{{ $.Site.Params.social.xing }}" title="{{ $.Site.Data.l10n.xing }}">
+		<i class="fa fa-fw fa-xing"></i>
+	</a>
+</li>
+{{- end }}
