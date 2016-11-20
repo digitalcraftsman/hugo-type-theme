@@ -9,7 +9,6 @@ A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to custom
 
 I assume you've Git installed. Inside the folder of your Hugo site run
 
-    $ mkdir themes
     $ cd themes
     $ git clone https://github.com/digitalcraftsman/hugo-type-theme.git
 
