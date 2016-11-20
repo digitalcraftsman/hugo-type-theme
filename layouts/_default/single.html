@@ -15,4 +15,6 @@
 	<section class="post-content">
 		{{ .Content }}
 	</section>
+
+	{{ template "_internal/disqus.html" . }}
 {{- end }}
