@@ -1,5 +1,10 @@
 # Changelog
 
+### 11th March 2017
+
+- Update hightlight.js and fontawesome
+- Add Gitlab and Trello icon
+
 ### 5th August 2016
 
 **This change requires Hugo v0.16 or greater**. The Gravatar image required the manual creation
