@@ -165,3 +165,19 @@
 	</a>
 </li>
 {{- end }}
+
+{{ with .Site.Params.social.trello -}}
+<li>
+	<a href="https://trello.com/{{ $.Site.Params.social.trello }}" title="{{ $.Site.Data.l10n.trello }}">
+		<i class="fa fa-fw  fa-trello"></i>
+	</a>
+</li>
+{{- end }}
+
+{{ with .Site.Params.social.gitlab -}}
+<li>
+	<a href="https://gitlab.comgitlab/{{ $.Site.Params.social.gitlab }}" title="{{ $.Site.Data.l10n.gitlab }}">
+		<i class="fa fa-gitlab"></i>
+	</a>
+</li>
+{{- end }}
