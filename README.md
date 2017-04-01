@@ -48,7 +48,7 @@ The optional comment system is powered by Disqus. Enter your shortname to enable
     disqusShortname = ""
 
 
-### Visistor statistics
+### Google Analytics
 
 The same applies to the activation of Google Analytics. Enable it by entering the tracking code for your website.
 
