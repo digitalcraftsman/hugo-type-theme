@@ -14,7 +14,9 @@
 
 	<section class="post-content">
 		{{ .Content }}
-	</section>
 
-	{{ template "_internal/disqus.html" . }}
+		{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+			{{ template "_internal/disqus.html" . }}
+		{{ end }}
+	</section>
 {{- end }}

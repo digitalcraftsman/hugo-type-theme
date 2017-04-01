@@ -47,6 +47,7 @@ The optional comment system is powered by Disqus. Enter your shortname to enable
 
     disqusShortname = ""
 
+With the `disableComments` frontmatter parameter you can disable the comment section for each page individually.
 
 ### Google Analytics
 
