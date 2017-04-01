@@ -1,7 +1,7 @@
 name = "Type"
 license = "MIT"
 licenselink = "https://github.com/digitalcraftsman/hugo-type-theme/blob/master/LICENSE.md"
-description = "A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize."
+description = "A free and open-source Hugo theme. Great for blogs and easy to customize."
 homepage = "https://github.com/digitalcraftsman/hugo-type-theme"
 tags = ["blog", "disqus", "google analytics", "minimalistic"]
 features = ["", ""]
