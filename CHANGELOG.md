@@ -1,5 +1,14 @@
 # Changelog
 
+### 1st April 2017
+
+**This change requires Hugo v0.19 or greater** due to the deprecation of the `.Now` attribute.
+
+Furthermore, the `exampleSite` folder has become a standalone demo by modified the `themesDir` property in the `config.toml`. Make sure to comment out `themesDir` in the config file if you use the theme in production. [Read more](/README.md#setup)
+
+The addition of the `disableComments` variable in the frontmatter the comment section can be disabled on individual pages.
+
+
 ### 11th March 2017
 
 - Update hightlight.js and fontawesome
