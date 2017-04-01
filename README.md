@@ -17,23 +17,7 @@ You should see a folder called `hugo-type-theme` inside the `themes` directory t
 
 ## Setup
 
-In the next step navigate to the `exampleSite` folder at `themes/hugo-type-theme/exampleSite/`. Its structure should look similar to this:
-
-	exampleSite
-	├── config.toml
-	├── content
-	│   ├── about
-	│   │   └── index.md
-	│   └── post
-	│       ├── creating-a-new-theme.md
-	│       ├── go-is-for-lovers.md
-	│       ├── hugo-is-for-lovers.md
-	│       └── migrate-from-jekyll.md
-	├── data
-	│   └── l10n.toml
-	└── static
-
-In order to get your site running, you need to copy `config.toml` and `data/l10n.toml` into the root folders.
+Next, navigate to the `exampleSite` folder at `themes/hugo-type-theme/exampleSite/`.  In order to get your site running, you need to copy `config.toml` and all the content of all relevant subfolders such as `data/l10n.toml` into the root folders.
 
 
 ## The config file
