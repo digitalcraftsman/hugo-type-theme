@@ -3,6 +3,7 @@ date = "2015-07-23"
 title = "About"
 featureimage = "img/sample_feature_img_3.png"
 menu = "nav"
+disableComments = true
 +++
 
 ### Lorem ipsum
