@@ -8,6 +8,8 @@ disqusShortname = "spf13"
 googleAnalytics = ""
 # Posts per page
 paginate = 10
+# Comment the themesDir option if you use this theme in production
+themesDir = "../.."
 
 
 [params]
