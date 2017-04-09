@@ -1,11 +1,11 @@
-		{{ partial "head.html" . }}
-		<body>
-			{{ partial "nav.html" . }}
-			<div class="content">
-				<article>
-					<header>
-						<h1 class="title">{{ .Site.Data.l10n.pageNotFoundTitle }}</h1>
-					</header>
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "nav.html" . }}
+		<div class="content">
+			<article>
+				<header>
+					<h1 class="title">{{ .Site.Data.l10n.pageNotFoundTitle }}</h1>
+				</header>
 				<section class="post-content">
 				<span style="display: flex; justify-content: center; align-items: center;">{{ .Site.Data.l10n.pageNotFoundSubtitle }}</span>
 				</section>
