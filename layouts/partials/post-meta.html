@@ -1,14 +1,14 @@
 <p class="meta">
-    {{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
+	{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} {{ .Site.Data.l10n.readingTime }}
 
-    {{ if isset .Params "tags" -}}
-        {{ $tagsLen := len .Params.tags }}
-        {{ if gt $tagsLen 0 -}}
-            &middot; Tags:
-            {{ range $k, $v := (sort .Params.tags) -}}
-            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>
-            {{ if lt $k (sub $tagsLen 1) }}, {{ end }}
-            {{- end }}
-        {{- end }}
-    {{- end }}
+	{{ if isset .Params "tags" -}}
+		{{ $tagsLen := len .Params.tags }}
+		{{ if gt $tagsLen 0 -}}
+			&middot; Tags:
+			{{ range $k, $v := (sort .Params.tags) -}}
+			<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>
+			{{ if lt $k (sub $tagsLen 1) }}, {{ end }}
+			{{- end }}
+		{{- end }}
+	{{- end }}
 </p>

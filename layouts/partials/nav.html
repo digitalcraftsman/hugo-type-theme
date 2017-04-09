@@ -13,11 +13,11 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-	      	{{ range .Site.Menus.nav -}}
-	        	<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
-	      	{{- end }}
+			{{ range .Site.Menus.nav -}}
+				<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
+			{{- end }}
 
-	      	{{ partial "icons.html" . }}
-	    </ul>
+			{{ partial "icons.html" . }}
+		</ul>
 	</nav>
 </header>
