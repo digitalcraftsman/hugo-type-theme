@@ -1,5 +1,5 @@
 {{ with .Site.Params.social.homepage -}}
-<li>
+<li class="icon">
 	<a href="{{ $.Site.BaseURL }}" title="{{ $.Site.Data.l10n.homepage }}">
 		<i class="fa fa-fw fa-home"></i>
 	</a>
@@ -7,7 +7,7 @@
 {{- end }}
 
 {{ if .Site.Params.social.rss -}}
-<li>
+<li class="icon">
 	<a href="{{ $.Site.BaseURL }}index.xml" title="{{ $.Site.Data.l10n.rssSubscribe }}">
 		<i class="fa fa-fw fa-rss"></i>
 	</a>
@@ -15,7 +15,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.email -}}
-<li>
+<li class="icon">
 	<a href="mailto:{{ $.Site.Params.social.email }}" title="{{ $.Site.Data.l10n.email }}">
 		<i class="fa fa-fw fa-envelope"></i>
 	</a>
@@ -23,7 +23,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.behance -}}
-<li>
+<li class="icon">
 	<a href="https://www.behance.net/{{ $.Site.Params.social.behance }}" title="{{ $.Site.Data.l10n.behance }}">
 		<i class="fa fa-fw fa-behance"></i>
 	</a>
@@ -31,7 +31,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.bitbucket -}}
-<li>
+<li class="icon">
 	<a href="https://bitbucket.org/{{ $.Site.Params.social.bitbucket }}" title="{{ $.Site.Data.l10n.bitbucket }}">
 		<i class="fa fa-fw fa-bitbucket"></i>
 	</a>
@@ -39,7 +39,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.dribbble -}}
-<li>
+<li class="icon">
 	<a href="https://dribbble.com/{{ $.Site.Params.social.dribbble }}" title="{{ $.Site.Data.l10n.dribbble }}">
 		<i class="fa fa-fw fa-dribbble"></i>
 	</a>
@@ -47,7 +47,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.facebook -}}
-<li>
+<li class="icon">
 	<a href="https://www.facebook.com/{{ $.Site.Params.social.facebook }}" title="{{ $.Site.Data.l10n.facebook }}">
 		<i class="fa fa-fw fa-facebook"></i>
 	</a>
@@ -55,7 +55,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.flickr -}}
-<li>
+<li class="icon">
 	<a href="https://www.flickr.com/photos/{{ $.Site.Params.social.flickr }}" title="{{ $.Site.Data.l10n.flickr }}">
 		<i class="fa fa-fw fa-flickr"></i>
 	</a>
@@ -63,7 +63,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.github -}}
-<li>
+<li class="icon">
 	<a href="https://github.com/{{ $.Site.Params.social.github }}" title="{{ $.Site.Data.l10n.github }}">
 		<i class="fa fa-fw fa-github"></i>
 	</a>
@@ -71,7 +71,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.googleplus -}}
-<li>
+<li class="icon">
 	<a href="https://plus.google.com/{{ $.Site.Params.social.googleplus }}" title="{{ $.Site.Data.l10n.googleplus }}">
 		<i class="fa fa-fw fa-google-plus"></i>
 	</a>
@@ -79,7 +79,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.instagram -}}
-<li>
+<li class="icon">
 	<a href="http://instagram.com/{{ $.Site.Params.social.instagram }}" title="{{ $.Site.Data.l10n.instagram }}">
 		<i class="fa fa-fw fa-instagram"></i>
 	</a>
@@ -87,7 +87,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.linkedin -}}
-<li>
+<li class="icon">
 	<a href="https://www.linkedin.com/in/{{ $.Site.Params.social.linkedin }}" title="{{ $.Site.Data.l10n.linkedin }}">
 		<i class="fa fa-fw fa-linkedin"></i>
 	</a>
@@ -95,7 +95,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.pinterest -}}
-<li>
+<li class="icon">
 	<a href="http://www.pinterest.com/{{ $.Site.Params.social.pinterest }}" title="{{ $.Site.Data.l10n.pinterest }}">
 		<i class="fa fa-fw fa-pinterest"></i>
 	</a>
@@ -103,7 +103,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.reddit -}}
-<li>
+<li class="icon">
 	<a href="https://www.reddit.com/user/{{ $.Site.Params.social.reddit }}" title="{{ $.Site.Data.l10n.reddit }}">
 		<i class="fa fa-fw fa-reddit"></i>
 	</a>
@@ -111,7 +111,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.soundcloud -}}
-<li>
+<li class="icon">
 	<a href="https://soundcloud.com/{{ $.Site.Params.social.soundcloud }}" title="{{ $.Site.Data.l10n.soundcloud }}">
 		<i class="fa fa-fw fa-soundcloud"></i>
 	</a>
@@ -119,7 +119,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.stackexchange -}}
-<li>
+<li class="icon">
 	<a href="{{ $.Site.Params.social.stackexchange }}" title="{{ $.Site.Data.l10n.stackexchange }}">
 		<i class="fa fa-fw fa-stack-exchange"></i>
 	</a>
@@ -127,7 +127,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.steam -}}
-<li>
+<li class="icon">
 	<a href="http://steamcommunity.com/id/{{ $.Site.Params.social.steam }}" title="{{ $.Site.Data.l10n.steam }}">
 		<i class="fa fa-fw fa-steam"></i>
 	</a>
@@ -135,7 +135,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.tumblr -}}
-<li>
+<li class="icon">
 	<a href="http://{{ $.Site.Params.social.tumblr }}.tumblr.com/" title="{{ $.Site.Data.l10n.tumblr }}">
 		<i class="fa fa-fw fa-tumblr"></i>
 	</a>
@@ -143,7 +143,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.twitter -}}
-<li>
+<li class="icon">
 	<a href="https://twitter.com/{{ $.Site.Params.social.twitter }}" title="{{ $.Site.Data.l10n.twitter }}">
 		<i class="fa fa-fw fa-twitter"></i>
 	</a>
@@ -151,7 +151,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.wordpress -}}
-<li>
+<li class="icon">
 	<a href="https://{{ $.Site.Params.social.wordpress }}.wordpress.com/" title="{{ $.Site.Data.l10n.wordpress }}">
 		<i class="fa fa-fw fa-wordpress"></i>
 	</a>
@@ -159,7 +159,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.youtube -}}
-<li>
+<li class="icon">
 	<a href="https://www.youtube.com/user/{{ $.Site.Params.social.youtube }}" title="{{ $.Site.Data.l10n.youtube }}">
 		<i class="fa fa-fw fa-youtube"></i>
 	</a>
@@ -167,7 +167,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.trello -}}
-<li>
+<li class="icon">
 	<a href="https://trello.com/{{ $.Site.Params.social.trello }}" title="{{ $.Site.Data.l10n.trello }}">
 		<i class="fa fa-fw fa-trello"></i>
 	</a>
@@ -175,7 +175,7 @@
 {{- end }}
 
 {{ with .Site.Params.social.gitlab -}}
-<li>
+<li class="icon">
 	<a href="https://gitlab.com/{{ $.Site.Params.social.gitlab }}" title="{{ $.Site.Data.l10n.gitlab }}">
 		<i class="fa fa-fw fa-gitlab"></i>
 	</a>
