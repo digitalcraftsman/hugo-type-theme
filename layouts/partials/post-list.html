@@ -3,12 +3,12 @@
 	{{ range $paginator.Pages -}}
 	<div class="post-teaser">
 		<header>
-		    <h1>
-		    <a class="post-link" href="{{ .Permalink }}">
-		        {{ .Title }}
-		    </a>
-		    </h1>
-		    {{ partial "post-meta" . }}
+			<h1>
+			<a class="post-link" href="{{ .Permalink }}">
+				{{ .Title }}
+			</a>
+			</h1>
+			{{ partial "post-meta" . }}
 		</header>
 
 		<div class="excerpt">
@@ -17,7 +17,7 @@
 			{{- else -}}
 				{{ .Summary }}
 			{{- end }}
-			
+
 			<br>
 			<a class="button" href="{{ .Permalink }}">
 				{{ .Site.Data.l10n.continueReading }}
