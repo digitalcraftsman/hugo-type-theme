@@ -2,4 +2,4 @@
 	<p class="text">&copy; {{ now.Format "2006" }} - {{ .Site.Params.copyright | markdownify }}</p>
 </footer>
 
-{{ template "_internal/google_analytics.html" . }}
+{{ partial "tracking.html" . }}
