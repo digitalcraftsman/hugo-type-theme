@@ -11,6 +11,7 @@
 
 	{{ "<!-- CSS -->" | safeHTML }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+	{{ with .Site.Params.customCSS }}<link rel="stylesheet" href="{{ . }}">{{ end }}
 
 	{{ "<!--Favicon-->" | safeHTML }}
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
