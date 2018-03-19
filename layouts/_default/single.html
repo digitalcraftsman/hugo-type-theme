@@ -16,8 +16,12 @@
 			{{ .Content }}
 
 			{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+				<hr>
 				{{ template "_internal/disqus.html" . }}
 			{{ end }}
+
+			<hr>
+			{{ partial "related" . }}
 		</section>
 	</article>
 {{- end }}
