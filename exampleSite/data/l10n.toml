@@ -6,12 +6,15 @@ next = "Next"
 readingTime = "minute read" # e.g. 3 minute read
 continueReading = "Continue reading"
 
+# Single content page
+relatedPagesSectionTitle = "See also"
+
 # 404.html
 pageNotFoundTitle = "Page not found"
 pageNotFoundSubtitle = "Sorry, the requested page wasn’t found on the server."
 
 # Social networks
-# Text will beshown while hovering the navigation icons
+# Text will be shown while hovering the navigation icons
 rssSubscribe  = "Subcribe"
 email = "Email"
 behance = "Behance"
