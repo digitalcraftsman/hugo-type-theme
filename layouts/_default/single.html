@@ -20,8 +20,10 @@
 				{{ template "_internal/disqus.html" . }}
 			{{ end }}
 
-			<hr>
-			{{ partial "related" . }}
+			{{ if eq .Type "post" }}
+				<hr>
+				{{ partial "related" . }}
+			{{ end }}
 		</section>
 	</article>
 {{- end }}
