@@ -1,5 +1,5 @@
 <footer class="site-footer">
-	<p class="text">&copy; {{ now.Format "2006" }} - {{ .Site.Params.copyright | markdownify }}</p>
+	<p class="text">&copy; {{ now.Format "2006" }} - {{ .Site.Params.copyright | default "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)" | markdownify }}</p>
 </footer>
 
 {{ template "_internal/google_analytics.html" . }}
