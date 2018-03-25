@@ -4,3 +4,5 @@
 
 /* see #6 */
 .highlighttable td,th{padding:0;border:0;}td.code{width:95%;}
+/* needed for chroma-based highlight */
+div.highlight > pre {padding: 10px;font-size: 0.8em;}
