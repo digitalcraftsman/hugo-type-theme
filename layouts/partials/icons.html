@@ -181,3 +181,11 @@
 	</a>
 </li>
 {{- end }}
+
+{{ with .Site.Params.social.meetup -}}
+<li class="icon">
+	<a href="https://meetup.com/{{ $.Site.Params.social.meetup }}" title="{{ $.Site.Data.l10n.meetup }}">
+		<i class="fa fa-fw fa-meetup"></i>
+	</a>
+</li>
+{{- end }}
