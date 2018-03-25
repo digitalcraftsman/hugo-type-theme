@@ -22,7 +22,7 @@ you are reading right now.
 
 Follow the following steps:
 
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
+ 1. Clone the [hugo repository](https://github.com/spf13/hugo)
  2. Go into the repo
  3. Run hugo in server mode and build the docs
  4. Open your browser to http://localhost:1313

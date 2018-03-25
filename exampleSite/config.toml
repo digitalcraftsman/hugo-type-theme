@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://replace-this-with-your-domain.com/"
 languageCode = "en-us"
 title = "Type theme"
 theme = "hugo-type-theme"
