@@ -15,8 +15,8 @@
 	{{ "<!--Favicon-->" | safeHTML }}
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
 
-	{{ "<!-- RSS -->" | safeHTML }}
 	{{ if .RSSLink -}}
+	{{ "<!-- RSS -->" | safeHTML }}
 		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 		<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 	{{- end }}
