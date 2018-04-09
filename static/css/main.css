@@ -6,3 +6,10 @@
 .highlighttable td,th{padding:0;border:0;}td.code{width:95%;}
 /* needed for chroma-based highlight */
 div.highlight > pre {padding: 10px;font-size: 0.8em;}
+
+p > code {
+	/* colors derived from dracula */
+	background: #282a36;
+	color: #f8f8f2;;
+	padding: 0 5px;
+}
