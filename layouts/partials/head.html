@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
-	<title>{{ .Title}}{{ if not .IsHome }}&middot; {{ .Site.Title }}{{ end }}</title>
+	<title>{{ .Title}}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
