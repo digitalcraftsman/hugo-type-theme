@@ -4,3 +4,13 @@
 
 /* see #6 */
 .highlighttable td,th{padding:0;border:0;}td.code{width:95%;}
+/* needed for chroma-based highlight */
+div.highlight > pre {padding: 10px;font-size: 0.8em;}
+
+p code,
+li code {
+	/* colors derived from dracula */
+	background-color: rgba(27,31,35,0.05);
+	color: #24292e;
+	padding: 0 5px;
+}
