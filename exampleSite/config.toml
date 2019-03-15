@@ -29,6 +29,9 @@ themesDir = "../.."
 	headerImage = ""
 	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Theme](https://github.com/digitalcraftsman/hugo-type-theme)"
 
+	# Define which types of content shall be displayed on the homepage. By default Hugo uses
+	# types with the most content files.
+	# mainSections = []
 
 	[params.social]
 		# Insert your accout name and the icon will be shown in the right menu
