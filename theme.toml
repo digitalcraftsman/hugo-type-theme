@@ -4,7 +4,7 @@ licenselink = "https://github.com/digitalcraftsman/hugo-type-theme/blob/master/L
 description = "A free and open-source Hugo theme. Great for blogs and easy to customize."
 homepage = "https://github.com/digitalcraftsman/hugo-type-theme"
 tags = ["blog", "disqus", "google analytics", "minimalistic"]
-features = ["", ""]
+features = []
 min_version = 0.19
 
 [author]
