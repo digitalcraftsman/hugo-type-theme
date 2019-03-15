@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com/"
+baseurl = "https://www.example.com/"
 languageCode = "en-us"
 title = "Type theme"
 theme = "hugo-type-theme"
@@ -27,7 +27,7 @@ themesDir = "../.."
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.
 	headerImage = ""
-	copyright = "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
+	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Theme](https://github.com/digitalcraftsman/hugo-type-theme)"
 
 
 	[params.social]
