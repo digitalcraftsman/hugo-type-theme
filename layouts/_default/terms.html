@@ -1,0 +1,11 @@
+{{ define "main" -}}
+<div class="posts">
+    <div class="post-teaser">
+        {{ range .Pages -}}
+		<header>
+			<h3><a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        </header>
+        {{- end }}
+	</div>
+</div>
+{{- end }}
