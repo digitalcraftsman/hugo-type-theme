@@ -189,3 +189,11 @@
 	</a>
 </li>
 {{- end }}
+
+{{ with .Site.Params.social.speakerdeck -}}
+<li class="icon">
+	<a href="https://speakerdeck.com/{{ $.Site.Params.social.speakerdeck }}" title="{{ $.Site.Data.l10n.speakerdeck }}">
+		<i class="fab fa-fw fa-speaker-deck"></i>
+	</a>
+</li>
+{{- end }}
