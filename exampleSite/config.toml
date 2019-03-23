@@ -24,8 +24,9 @@ themesDir = "../.."
 	gravatar = "your@email.com"
 
 	headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."
-	# To add a header background to the main site, save your image under static/img/.
-	# If now image path is provided, a orange background will be shown instead.
+	# To add a header background to the main site, save your image under static/img/yourimage.png
+	# and assign "yourimage.png" to the headerImage variable. If no image path is provided, a
+	# orange background will be shown instead.
 	headerImage = ""
 	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Theme](https://github.com/digitalcraftsman/hugo-type-theme)"
 
