@@ -1,7 +1,7 @@
 {{ define "main" -}}
 	{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
 	<article class="feature-image">
-		<header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
+		<header style="background-image: url('{{ .Params.featureimage | absURL }}')">
 			<h1 class="title">{{ .Title }}</h1>
 		</header>
 	{{- else -}}

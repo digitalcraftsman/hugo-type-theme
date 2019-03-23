@@ -8,11 +8,11 @@
 	{{ .Hugo.Generator }}
 
 	{{ "<!-- CSS -->" | safeHTML }}
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 
 	{{ "<!--Favicon-->" | safeHTML }}
-	<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png">
-	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
+	<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
 
 	{{ if .RSSLink -}}
 	{{ "<!-- RSS -->" | safeHTML }}

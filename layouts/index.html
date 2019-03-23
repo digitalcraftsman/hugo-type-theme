@@ -8,7 +8,7 @@
 			<div class="home">
 
 				{{ if .Site.Params.headerText }}
-				<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}')">
+				<div class="call-out" style="background-image: url('{{ printf "img/%s" .Site.Params.headerImage | absURL }}')">
 					{{ .Site.Params.headerText | markdownify }}
 				</div>
 				{{ end }}
