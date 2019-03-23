@@ -1,6 +1,6 @@
 # Changelog
 
-### 23rd March 2019
+### v1.4
 
 **This release requires Hugo v0.53 or greater**
 
@@ -14,7 +14,7 @@
 - Add support for an apple-touch-icon
 - Add Speakerdeck icon
 
-### 1st April 2017
+### v1.3
 
 **This release requires Hugo v0.19 or greater** due to the deprecation of the `.Now` attribute.
 
@@ -23,12 +23,12 @@ Furthermore, the `exampleSite` folder has become a standalone demo by modified t
 The addition of the `disableComments` variable in the frontmatter the comment section can be disabled on individual pages.
 
 
-### 11th March 2017
+### v1.2
 
 - Update hightlight.js and fontawesome
 - Add Gitlab and Trello icon
 
-### 5th August 2016
+### v1.1
 
 **This release requires Hugo v0.16 or greater**. The Gravatar image required the manual creation
 of an MD5 hash in order to generate an avatar. Now, this is done automatically. The avatar still
