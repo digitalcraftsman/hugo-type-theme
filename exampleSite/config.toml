@@ -30,6 +30,14 @@ themesDir = "../.."
 	headerImage = ""
 	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Theme](https://github.com/digitalcraftsman/hugo-type-theme)"
 
+	# Set title for Hugo's opengraph template
+	title = "Type theme"
+	
+	[taxonomies]
+		# Use the series taxonomy to group blog posts in series. Related articles in the series
+		# will be used by Hugo's opengraph template
+  		series = "series"
+
 	# Define which types of content shall be displayed on the homepage. By default Hugo uses
 	# types with the most content files.
 	# mainSections = []
