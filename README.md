@@ -98,4 +98,5 @@ This theme is released under the MIT license. For more information read the [lic
 Thanks to
 
 - [Rohan Chandra](https://github.com/rohanchandra) for creating the original theme
-- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+- [Steve Francia](https:////github.com/spf13) for creating Hugo and the awesome community around the project.
+- [Andy Grunwald](https://github.com/andygrunwald) for contributing numerous improvements
