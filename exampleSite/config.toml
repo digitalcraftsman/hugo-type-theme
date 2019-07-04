@@ -37,6 +37,8 @@ themesDir = "../.."
 		# Use the series taxonomy to group blog posts in series. Related articles in the series
 		# will be used by Hugo's opengraph template
   		series = "series"
+		tags = "tags"
+		categories = "categories"
 
 	# Define which types of content shall be displayed on the homepage. By default Hugo uses
 	# types with the most content files.
