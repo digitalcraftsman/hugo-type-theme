@@ -69,7 +69,7 @@ This way you can store them either next to the content file or in the `static` f
 
 ## About page
 
-If you want to tell your audience who you are create a new file called `index.md` under `content/about`. For an example look at `exampleSite/content/about/index.md` inside the theme folder.
+If you want to tell your audience who you are create a new file called `about.md` under `content`. For an example look at `exampleSite/content/about.md` inside the theme folder.
 
 
 ## Nearly finished
