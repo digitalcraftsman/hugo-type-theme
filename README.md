@@ -2,7 +2,7 @@
 
 A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize. This theme is a port of the original [Type theme](https://github.com/rohanchandra/type-theme) made by [Rohan Chandra](https://github.com/rohanchandra). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, Google Analytics and localization (l10n) support.
 
-#### **Please not that this theme is not longer maintained.**
+#### Please not that this theme is no longer maintained.
 
 ![](https://raw.githubusercontent.com/digitalcraftsman/hugo-type-theme/dev/images/screenshot.png)
 
